@@ -24,19 +24,19 @@ function CalculoValorFinal(prodcuto){
         let descuentos= 200;
         let valorFinal= 1000 + impuestos -descuentos;
 
-        alert('El impuesto tiene un valor de impuesto '+ impuestos+' pesos, y un descuento de ' + descuentos + ', por lo tanto el total es de '+valorFinal+ ' pesos finales');
+        alert('El impuesto tiene un valor de '+ impuestos+' pesos, con descuento de ' + descuentos + ', por lo tanto el total es de '+valorFinal+ ' pesos finales');
     }else if(prodcuto==2){
         let impuestos= 400;
         let descuentos= 600;
         let valorFinal= 1200 + impuestos -descuentos;
 
-        alert('El impuesto tiene un valor de impuesto'+ impuestos+' pesos, y un descuento de ' + descuentos + ', por lo tanto el total es de '+valorFinal+ ' pesos finales');
+        alert('El impuesto tiene un valor de '+ impuestos+' pesos, con descuento de ' + descuentos + ', por lo tanto el total es de '+valorFinal+ ' pesos finales');
     }else if(prodcuto==3){
         let impuestos= 200;
         let descuentos= 500;
         let valorFinal= 1400 + impuestos -descuentos;
 
-        alert('El impuesto tiene un valor de impuesto'+ impuestos+' pesos, y un descuento de ' + descuentos + ', por lo tanto el total es de '+valorFinal+ ' pesos finales');
+        alert('El impuesto tiene un valor de '+ impuestos+' pesos, con descuento de ' + descuentos + ', por lo tanto el total es de '+valorFinal+ ' pesos finales');
     }else{
         alert('PRODUCTO NO EXISTENTE ELIJA OTRO.');
     }
